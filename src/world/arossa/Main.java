@@ -2,7 +2,9 @@ package world.arossa;
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
 //import world.arossa.everything_is_an_object.ExerciseN2;
-import world.arossa.everything_is_an_object.ExerciseN3;
+//import world.arossa.everything_is_an_object.ExerciseN3;
+
+import world.arossa.everything_is_an_object.ExerciseN4;
 
 public class Main {
 
@@ -17,7 +19,11 @@ public class Main {
 //        d.dateInfo();
 
 //        everything_is_an_object.ExerciseN3;
-        ExerciseN3 empty = new ExerciseN3();
+//        ExerciseN3 empty = new ExerciseN3();
+
+        ExerciseN4 dataOnly = new ExerciseN4(1, 7.25, false);
+        dataOnly.showInfo(dataOnly);
+        System.out.println(dataOnly.getClass());
 
     }
 }
