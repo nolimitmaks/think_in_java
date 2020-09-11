@@ -8,8 +8,10 @@ package world.arossa;
 
 //import world.arossa.everything_is_an_object.ExerciseN6;
 
-import world.arossa.everything_is_an_object.ExerciseN7Incrementable;
-import world.arossa.everything_is_an_object.ExerciseN7StaticTest;
+//import world.arossa.everything_is_an_object.ExerciseN7Incrementable;
+//import world.arossa.everything_is_an_object.ExerciseN7StaticTest;
+
+import world.arossa.everything_is_an_object.ExerciseN9;
 
 public class Main {
 
@@ -35,13 +37,18 @@ public class Main {
 //        ExerciseN6 st = new ExerciseN6();
 //        st.printInfo();
 
-        ExerciseN7StaticTest st1 = new ExerciseN7StaticTest();
-        ExerciseN7StaticTest st2 = new ExerciseN7StaticTest();
-        System.out.println(st1.n);
-        System.out.println(st2.n);
-        ExerciseN7Incrementable.increment();
-        System.out.println(st1.n);
-        System.out.println(st2.n);
+//        everything_is_an_object.ExerciseN7Incrementable;
+//        everything_is_an_object.ExerciseN7StaticTest;
+//        ExerciseN7StaticTest st1 = new ExerciseN7StaticTest();
+//        ExerciseN7StaticTest st2 = new ExerciseN7StaticTest();
+//        System.out.println(st1.n);
+//        System.out.println(st2.n);
+//        ExerciseN7Incrementable.increment();
+//        System.out.println(st1.n);
+//        System.out.println(st2.n);
 
+
+          ExerciseN9 a = new ExerciseN9();
+          a.printInfo();
     }
 }
