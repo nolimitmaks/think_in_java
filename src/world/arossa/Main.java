@@ -1,7 +1,8 @@
 package world.arossa;
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
-import world.arossa.everything_is_an_object.ExerciseN2;
+//import world.arossa.everything_is_an_object.ExerciseN2;
+import world.arossa.everything_is_an_object.ExerciseN3;
 
 public class Main {
 
@@ -12,8 +13,11 @@ public class Main {
 
 
 //        everything_is_an_object.ExerciseN2;
-        ExerciseN2 d = new ExerciseN2();
-        d.dateInfo();
+//        ExerciseN2 d = new ExerciseN2();
+//        d.dateInfo();
+
+//        everything_is_an_object.ExerciseN3;
+        ExerciseN3 empty = new ExerciseN3();
 
     }
 }
