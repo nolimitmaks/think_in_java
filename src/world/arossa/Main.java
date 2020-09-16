@@ -11,7 +11,10 @@ package world.arossa;
 //import world.arossa.everything_is_an_object.ExerciseN7Incrementable;
 //import world.arossa.everything_is_an_object.ExerciseN7StaticTest;
 
-import world.arossa.everything_is_an_object.ExerciseN9;
+//import world.arossa.everything_is_an_object.ExerciseN9;
+
+
+import world.arossa.operators.ExerciseN1;
 
 public class Main {
 
@@ -47,8 +50,12 @@ public class Main {
 //        System.out.println(st1.n);
 //        System.out.println(st2.n);
 
+//        world.arossa.everything_is_an_object.ExerciseN9
+//          ExerciseN9 a = new ExerciseN9();
+//          a.printInfo();
 
-          ExerciseN9 a = new ExerciseN9();
-          a.printInfo();
+//         world.arossa.operators.ExerciseN1
+            ExerciseN1 x = new ExerciseN1("Let's code)");
+
     }
 }
