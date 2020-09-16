@@ -1,10 +1,10 @@
 package world.arossa.operators;
 
-import world.arossa.helpers_and_utils.Print;
+import world.arossa.helpers.Print;
 
 public class ExerciseN1 {
     public ExerciseN1 (String s) {
-        Print.out(s);
+        Print.s(s);
 
         System.out.println("works fine");
     }

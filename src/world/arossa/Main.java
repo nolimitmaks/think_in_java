@@ -1,4 +1,5 @@
 package world.arossa;
+import world.arossa.helpers.Print;
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
 //import world.arossa.everything_is_an_object.ExerciseN2;
@@ -15,6 +16,7 @@ package world.arossa;
 
 
 import world.arossa.operators.ExerciseN1;
+
 
 public class Main {
 
@@ -55,7 +57,9 @@ public class Main {
 //          a.printInfo();
 
 //         world.arossa.operators.ExerciseN1
-            ExerciseN1 x = new ExerciseN1("Let's code)");
+//            ExerciseN1 x = new ExerciseN1("Let's code)");
+
+
 
     }
 }
