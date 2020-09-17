@@ -96,7 +96,7 @@ public class Main {
 
 
 //        provide range of distance, range of time in minutes to find out velocity
-        ExerciseN4 v = new ExerciseN4();
-        v.getVelocity(100, 250, 10, 125);
+        ExerciseN4 v = new ExerciseN4(100, 250, 10, 125);
+//        v.getVelocity();
     }
 }
