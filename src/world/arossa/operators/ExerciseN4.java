@@ -6,11 +6,11 @@ import java.util.Random;
 
 public class ExerciseN4 {
 
-    public static double distance;
-    public static double time;
-    public static double velocity;
+    public double distance;
+    public double time;
+    public double velocity;
 
-    public static void getVelocity(int sMin, int sMax, int tMin, int tMax) {
+    public void getVelocity(int sMin, int sMax, int tMin, int tMax) {
 
 //        generate distance
         Random r = new Random();
