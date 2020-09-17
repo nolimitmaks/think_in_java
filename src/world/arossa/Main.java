@@ -15,8 +15,10 @@ import world.arossa.helpers.Print;
 //import world.arossa.everything_is_an_object.ExerciseN9;
 
 
-import world.arossa.operators.ExerciseN1;
-import world.arossa.operators.ExerciseN2;
+//import world.arossa.operators.ExerciseN1;
+//import world.arossa.operators.ExerciseN2;
+import world.arossa.operators.ExerciseN3;
+import world.arossa.operators.ExerciseN3A;
 
 
 public class Main {
@@ -63,23 +65,32 @@ public class Main {
 
 
 //        world.arossa.operators.ExerciseN2
-        ExerciseN2 f1 = new ExerciseN2();
-        ExerciseN2 f2 = new ExerciseN2();
+//        ExerciseN2 f1 = new ExerciseN2();
+//        ExerciseN2 f2 = new ExerciseN2();
+//
+//        f1.f = 500.0f;
+//        f2.f = 300.0f;
+//        Print.f(f1.f);
+//        Print.f(f2.f);
+//
+//        f1 = f2;
+//        Print.f(f1.f);
+//        Print.f(f2.f);
+//
+//        f1.f = 9.0f;
+//        Print.f(f1.f);
+//        Print.f(f2.f);
 
-        f1.f = 500.0f;
-        f2.f = 300.0f;
-        Print.f(f1.f);
-        Print.f(f2.f);
-
-        f1 = f2;
-        Print.f(f1.f);
-        Print.f(f2.f);
-
+//        world.arossa.operators.ExerciseN3
+        ExerciseN3A f1 = new ExerciseN3A();
         f1.f = 9.0f;
+
         Print.f(f1.f);
-        Print.f(f2.f);
 
+        ExerciseN3 f2 = new ExerciseN3();
+        f2.f(f1);
 
+        Print.f(f1.f);
 
     }
 }
