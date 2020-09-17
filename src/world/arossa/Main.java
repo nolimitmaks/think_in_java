@@ -87,8 +87,7 @@ public class Main {
 
         Print.f(f1.f);
 
-        ExerciseN3 f2 = new ExerciseN3();
-        f2.f(f1);
+        ExerciseN3.f(f1);
 
         Print.f(f1.f);
 
