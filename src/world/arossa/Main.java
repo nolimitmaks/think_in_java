@@ -1,5 +1,8 @@
 package world.arossa;
 import world.arossa.helpers.Print;
+import world.arossa.operators.ExerciseN4;
+
+import java.util.Random;
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
 //import world.arossa.everything_is_an_object.ExerciseN2;
@@ -17,8 +20,8 @@ import world.arossa.helpers.Print;
 
 //import world.arossa.operators.ExerciseN1;
 //import world.arossa.operators.ExerciseN2;
-import world.arossa.operators.ExerciseN3;
-import world.arossa.operators.ExerciseN3A;
+//import world.arossa.operators.ExerciseN3;
+//import world.arossa.operators.ExerciseN3A;
 
 
 public class Main {
@@ -82,14 +85,20 @@ public class Main {
 //        Print.f(f2.f);
 
 //        world.arossa.operators.ExerciseN3
-        ExerciseN3A f1 = new ExerciseN3A();
-        f1.f = 9.0f;
+//        ExerciseN3A f1 = new ExerciseN3A();
+//        f1.f = 9.0f;
+//
+//        Print.f(f1.f);
+//
+//        ExerciseN3.f(f1);
+//
+//        Print.f(f1.f);
 
-        Print.f(f1.f);
 
-        ExerciseN3.f(f1);
+//        ExerciseN4 r = new ExerciseN4();
+//        r.get
 
-        Print.f(f1.f);
-
+//        provide range of distance, range of time in minutes to find out velocity
+        ExerciseN4.getVelocity(100, 250, 10, 125);
     }
 }
