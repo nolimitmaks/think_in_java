@@ -6,14 +6,14 @@ import java.util.Random;
 
 public class ExerciseN4 {
 
-    public double distance;
-    public double time;
-    public double velocity;
+    private double distance;
+    private double time;
+    private double velocity;
 
-    public int sMin;
-    public int sMax;
-    public int tMin;
-    public int tMax;
+    private int sMin;
+    private int sMax;
+    private int tMin;
+    private int tMax;
 
     public ExerciseN4 (int sMin, int sMax, int tMin, int tMax) {
         this.sMin = sMin;
@@ -23,7 +23,7 @@ public class ExerciseN4 {
 
         this.getVelocity();
     }
-    public void getVelocity() {
+    final void getVelocity() {
 
         Random r = new Random();
         distance = Math.round( (sMin + (sMax-sMin) * r.nextDouble() ) * 100)/ 100.00;
