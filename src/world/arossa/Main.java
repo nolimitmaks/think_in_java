@@ -21,6 +21,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN3;
 //import world.arossa.operators.ExerciseN3A;
 import world.arossa.operators.ExerciseN4;
+import world.arossa.operators.ExerciseN5;
 
 public class Main {
 
@@ -94,7 +95,26 @@ public class Main {
 
 
 //        provide range of distance, range of time in minutes to find out velocity
-        ExerciseN4 v = new ExerciseN4(100, 250, 10, 125);
+//        ExerciseN4 v = new ExerciseN4(100, 250, 10, 125);
 
+
+        ExerciseN5 dog1 = new ExerciseN5("spot", "Ruff!");
+        ExerciseN5 dog2 = new ExerciseN5("scruffy", "Wurf!");
+        print(dog1.name);
+        print(dog1.say);
+        print(dog2.name);
+        print(dog2.say);
+
+        ExerciseN5 dog3 = new ExerciseN5("doberman", "Rrr!");
+        dog1 = dog3;
+        print(dog3.name);
+        print(dog3.say);
+        print(dog1.name);
+        print(dog1.say);
+
+        print(dog1 == dog2);
+        print(dog1 == dog3);
+        print(dog1.equals(dog2));
+        print(dog1.equals(dog3));
     }
 }
