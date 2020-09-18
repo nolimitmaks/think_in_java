@@ -1,4 +1,5 @@
 package world.arossa.everything_is_an_object;
+import static world.arossa.helpers.Print.*;
 
 public class ExerciseN9 {
     char c = 'c';
@@ -29,13 +30,13 @@ public class ExerciseN9 {
 
 
     public void printInfo() {
-        System.out.println(ch);
-        System.out.println(n1);
-        System.out.println(b1);
-        System.out.println(d1);
-        System.out.println(by1);
-        System.out.println(f1);
-        System.out.println(sh1);
-        System.out.println(l1);
+        print(ch);
+        print(n1);
+        print(b1);
+        print(d1);
+        print(by1);
+        print(f1);
+        print(sh1);
+        print(l1);
     }
 }

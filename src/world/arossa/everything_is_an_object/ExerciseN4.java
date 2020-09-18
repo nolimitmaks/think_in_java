@@ -1,4 +1,5 @@
 package world.arossa.everything_is_an_object;
+import static world.arossa.helpers.Print.*;
 
 public class ExerciseN4 {
     int i;
@@ -13,8 +14,8 @@ public class ExerciseN4 {
     }
 
     public void showInfo(ExerciseN4 data) {
-        System.out.println(data.i);
-        System.out.println(data.b);
-        System.out.println(data.d);
+        print(data.i);
+        print(data.b);
+        print(data.d);
     }
 }

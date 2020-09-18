@@ -1,15 +1,13 @@
 package world.arossa;
-import world.arossa.helpers.Print;
-import world.arossa.operators.ExerciseN4;
 
 import java.util.Random;
+
+import static world.arossa.helpers.Print.*;
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
 //import world.arossa.everything_is_an_object.ExerciseN2;
 //import world.arossa.everything_is_an_object.ExerciseN3;
-
 //import world.arossa.everything_is_an_object.ExerciseN4;
-
 //import world.arossa.everything_is_an_object.ExerciseN6;
 
 //import world.arossa.everything_is_an_object.ExerciseN7Incrementable;
@@ -22,7 +20,7 @@ import java.util.Random;
 //import world.arossa.operators.ExerciseN2;
 //import world.arossa.operators.ExerciseN3;
 //import world.arossa.operators.ExerciseN3A;
-
+import world.arossa.operators.ExerciseN4;
 
 public class Main {
 
@@ -52,11 +50,11 @@ public class Main {
 //        everything_is_an_object.ExerciseN7StaticTest;
 //        ExerciseN7StaticTest st1 = new ExerciseN7StaticTest();
 //        ExerciseN7StaticTest st2 = new ExerciseN7StaticTest();
-//        System.out.println(st1.n);
-//        System.out.println(st2.n);
+//        print(st1.n);
+//        print(st2.n);
 //        ExerciseN7Incrementable.increment();
-//        System.out.println(st1.n);
-//        System.out.println(st2.n);
+//        print(st1.n);
+//        print(st2.n);
 
 //        world.arossa.everything_is_an_object.ExerciseN9
 //          ExerciseN9 a = new ExerciseN9();
@@ -73,30 +71,30 @@ public class Main {
 //
 //        f1.f = 500.0f;
 //        f2.f = 300.0f;
-//        Print.f(f1.f);
-//        Print.f(f2.f);
+//        print(f1.f);
+//        print(f2.f);
 //
 //        f1 = f2;
-//        Print.f(f1.f);
-//        Print.f(f2.f);
+//        print(f1.f);
+//        print(f2.f);
 //
 //        f1.f = 9.0f;
-//        Print.f(f1.f);
-//        Print.f(f2.f);
+//        print(f1.f);
+//        print(f2.f);
 
 //        world.arossa.operators.ExerciseN3
 //        ExerciseN3A f1 = new ExerciseN3A();
 //        f1.f = 9.0f;
 //
-//        Print.f(f1.f);
+//        print(f1.f);
 //
 //        ExerciseN3.f(f1);
 //
-//        Print.f(f1.f);
+//        print(f1.f);
 
 
 //        provide range of distance, range of time in minutes to find out velocity
         ExerciseN4 v = new ExerciseN4(100, 250, 10, 125);
-//        v.getVelocity();
+
     }
 }

@@ -1,4 +1,5 @@
 package world.arossa.everything_is_an_object;
+import static world.arossa.helpers.Print.*;
 
 public class ExerciseN6 {
     String s = "Hello Java";
@@ -8,6 +9,6 @@ public class ExerciseN6 {
     }
 
     public void printInfo() {
-        System.out.println("storage is " + storage(s));
+        print("storage is " + storage(s));
     }
 }

@@ -1,6 +1,6 @@
 package world.arossa.operators;
 
-import world.arossa.helpers.Print;
+import static world.arossa.helpers.Print.*;
 
 import java.util.Random;
 
@@ -23,18 +23,18 @@ public class ExerciseN4 {
 
         this.getVelocity();
     }
-    final void getVelocity() {
 
+    final void getVelocity() {
         Random r = new Random();
         distance = Math.round( (sMin + (sMax-sMin) * r.nextDouble() ) * 100)/ 100.00;
-        Print.s("\n"+distance + " -> distance in km\n");
+        print("\n"+distance + " -> distance in km\n");
 
         r = new Random();
         time = Math.round( tMin + (tMax-tMin) * r.nextDouble() );
-        Print.s(time + " -> time in minutes\n");
+        print(time + " -> time in minutes\n");
 
         velocity = distance / time * 60;
-        Print.s(Math.round(velocity) + " -> km / H\n");
+        print(Math.round(velocity) + " -> km / H\n");
 
     }
 }

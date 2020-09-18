@@ -1,11 +1,11 @@
 package world.arossa.operators;
 
-import world.arossa.helpers.Print;
+import static world.arossa.helpers.Print.*;
 
 public class ExerciseN1 {
     public ExerciseN1 (String s) {
-        Print.s(s);
+        print(s);
 
-        System.out.println("works fine");
+        print("works fine");
     }
 }
