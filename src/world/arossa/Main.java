@@ -1,5 +1,7 @@
 package world.arossa;
 
+import world.arossa.operators.ExerciseN7;
+
 import java.util.Random;
 
 import static world.arossa.helpers.Print.*;
@@ -20,8 +22,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN2;
 //import world.arossa.operators.ExerciseN3;
 //import world.arossa.operators.ExerciseN3A;
-import world.arossa.operators.ExerciseN4;
-import world.arossa.operators.ExerciseN5;
+//import world.arossa.operators.ExerciseN4;
+//import world.arossa.operators.ExerciseN5;
 
 public class Main {
 
@@ -97,7 +99,7 @@ public class Main {
 //        provide range of distance, range of time in minutes to find out velocity
 //        ExerciseN4 v = new ExerciseN4(100, 250, 10, 125);
 
-
+/*
         ExerciseN5 dog1 = new ExerciseN5("spot", "Ruff!");
         ExerciseN5 dog2 = new ExerciseN5("scruffy", "Wurf!");
         print(dog1.name);
@@ -116,5 +118,9 @@ public class Main {
         print(dog1 == dog3);
         print(dog1.equals(dog2));
         print(dog1.equals(dog3));
+
+ */
+
+        ExerciseN7 coin = new ExerciseN7();
     }
 }
