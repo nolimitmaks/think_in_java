@@ -25,7 +25,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN5;
 //import world.arossa.operators.ExerciseN7;
 //import world.arossa.operators.ExerciseN8;
-import world.arossa.operators.ExerciseN9;
+//import world.arossa.operators.ExerciseN9;
+import world.arossa.operators.ExerciseN10;
 
 public class Main {
 
@@ -131,11 +132,16 @@ public class Main {
 //        ExerciseN8 x = new ExerciseN8(0x2f, 0X2F, 0177);
 
 
-        ExerciseN9 x = new ExerciseN9(Float.MAX_VALUE, Float.MIN_VALUE, Double.MAX_VALUE, Double.MIN_VALUE);
+//        ExerciseN9 x = new ExerciseN9(Float.MAX_VALUE, Float.MIN_VALUE, Double.MAX_VALUE, Double.MIN_VALUE);
 //        3.4028235E38
 //        1.4E-45
 //        1.7976931348623157E308
 //        4.9E-324
+
+
+//        world.arossa.operators.ExerciseN10;
+        ExerciseN10 x = new ExerciseN10(0xbfffffb, 0x99999999);
+
 
     }
 }
