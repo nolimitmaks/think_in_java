@@ -1,10 +1,7 @@
 package world.arossa;
-
-import world.arossa.operators.ExerciseN7;
-
 import java.util.Random;
-
 import static world.arossa.helpers.Print.*;
+
 
 //import world.arossa.everything_is_an_object.ExerciseN1;
 //import world.arossa.everything_is_an_object.ExerciseN2;
@@ -24,6 +21,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN3A;
 //import world.arossa.operators.ExerciseN4;
 //import world.arossa.operators.ExerciseN5;
+//import world.arossa.operators.ExerciseN7;
+import world.arossa.operators.ExerciseN8;
 
 public class Main {
 
@@ -121,6 +120,13 @@ public class Main {
 
  */
 
-        ExerciseN7 coin = new ExerciseN7();
+//        world.arossa.operators.ExerciseN7;
+//        ExerciseN7 coin = new ExerciseN7();
+
+
+//        world.arossa.operators.ExerciseN8;
+        ExerciseN8 x = new ExerciseN8(0x2f, 0X2F, 0177);
+
+
     }
 }
