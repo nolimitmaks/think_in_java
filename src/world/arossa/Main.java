@@ -1,4 +1,5 @@
 package world.arossa;
+
 import java.util.Random;
 import java.util.zip.DeflaterOutputStream;
 
@@ -28,7 +29,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN9;
 //import world.arossa.operators.ExerciseN10;
 //import world.arossa.operators.ExerciseN11;
-import world.arossa.operators.ExerciseN12;
+//import world.arossa.operators.ExerciseN12;
+import world.arossa.operators.ExerciseN13;
 
 public class Main {
 
@@ -149,7 +151,11 @@ public class Main {
 //        ExerciseN11 x = new ExerciseN11(0x80000000);
 
         //        import world.arossa.operators.ExerciseN12;
-        ExerciseN12 x = new ExerciseN12(-1 >> 1);
-        
+//        ExerciseN12 x = new ExerciseN12(-1 >> 1);
+
+
+//      world.arossa.operators.ExerciseN13;
+        ExerciseN13 x = new ExerciseN13('f', 'a', 'n', 'g');
+
     }
 }
