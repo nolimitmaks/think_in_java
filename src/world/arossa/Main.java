@@ -27,7 +27,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN8;
 //import world.arossa.operators.ExerciseN9;
 //import world.arossa.operators.ExerciseN10;
-import world.arossa.operators.ExerciseN11;
+//import world.arossa.operators.ExerciseN11;
+import world.arossa.operators.ExerciseN12;
 
 public class Main {
 
@@ -145,7 +146,10 @@ public class Main {
 
 
 //        import world.arossa.operators.ExerciseN11;
-        ExerciseN11 x = new ExerciseN11(0x80000000);
+//        ExerciseN11 x = new ExerciseN11(0x80000000);
 
+        //        import world.arossa.operators.ExerciseN12;
+        ExerciseN12 x = new ExerciseN12(-1 >> 1);
+        
     }
 }
