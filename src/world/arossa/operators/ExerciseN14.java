@@ -38,6 +38,7 @@ public class ExerciseN14 {
                 if(s1.length() < s2.length()) {
                     print("s1.length() < s2.length()");
                 }
+                break;
             case "<=":
                 if(s1.length() <= s2.length()) {
                     print("s1.length() <= s2.length()xx");
