@@ -158,8 +158,19 @@ public class Main {
 //      world.arossa.operators.ExerciseN13;
 //        ExerciseN13 x = new ExerciseN13('f', 'a', 'n', 'g');
 
+        String[] arr = {"<", ">", ">=", "<=", "==", "!=", "equal", "equalIgnoreCase"};
+        ExerciseN14 x = new ExerciseN14("jbl", "bose",  arr);
 
-        ExerciseN14 x = new ExerciseN14("a", "b");
-        x.showInfo("!=");
+        /* output
+        *
+[<, >, >=, <=, ==, !=, equal, equalIgnoreCase]
+s1.length() < s2.length()
+s1.length() <= s2.length()xx
+s1.length() <= s2.length()xx
+s1 != s2
+
+
+        * */
+
     }
 }
