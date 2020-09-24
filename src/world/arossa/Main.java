@@ -30,7 +30,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN10;
 //import world.arossa.operators.ExerciseN11;
 //import world.arossa.operators.ExerciseN12;
-import world.arossa.operators.ExerciseN13;
+//import world.arossa.operators.ExerciseN13;
+import world.arossa.operators.ExerciseN14;
 
 public class Main {
 
@@ -155,7 +156,10 @@ public class Main {
 
 
 //      world.arossa.operators.ExerciseN13;
-        ExerciseN13 x = new ExerciseN13('f', 'a', 'n', 'g');
+//        ExerciseN13 x = new ExerciseN13('f', 'a', 'n', 'g');
 
+
+        ExerciseN14 x = new ExerciseN14("a", "b");
+        x.showInfo("!=");
     }
 }
