@@ -1,5 +1,7 @@
 package world.arossa;
 
+
+
 import java.util.Random;
 import java.util.zip.DeflaterOutputStream;
 
@@ -31,7 +33,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.operators.ExerciseN11;
 //import world.arossa.operators.ExerciseN12;
 //import world.arossa.operators.ExerciseN13;
-import world.arossa.operators.ExerciseN14;
+//import world.arossa.operators.ExerciseN14;
+import world.arossa.controlling_execution.ExerciseN1;
 
 public class Main {
 
@@ -158,19 +161,11 @@ public class Main {
 //      world.arossa.operators.ExerciseN13;
 //        ExerciseN13 x = new ExerciseN13('f', 'a', 'n', 'g');
 
-        String[] arr = {"<", ">", ">=", "<=", "==", "!=", "equal", "equalIgnoreCase"};
-        ExerciseN14 x = new ExerciseN14("jbl", "bose",  arr);
-
-        /* output
-        *
-[<, >, >=, <=, ==, !=, equal, equalIgnoreCase]
-s1.length() < s2.length()
-s1.length() <= s2.length()xx
-s1.length() <= s2.length()xx
-s1 != s2
+//        String[] arr = {"<", ">", ">=", "<=", "==", "!=", "equal", "equalIgnoreCase"};
+//        ExerciseN14 x = new ExerciseN14("jbl", "bose",  arr);
 
 
-        * */
-
+//        world.arossa.controlling_execution.ExerciseN1;
+        ExerciseN1 x = new ExerciseN1(1, 100);
     }
 }
