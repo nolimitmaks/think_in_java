@@ -1,6 +1,6 @@
 package world.arossa.helpers;
 
-public class Print {
+public final class Print {
     public static void print (int n) {
         System.out.println(n);
     }
