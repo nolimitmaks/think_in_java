@@ -1,10 +1,6 @@
 package world.arossa;
 
-
-
 import java.util.Random;
-import java.util.zip.DeflaterOutputStream;
-
 import static world.arossa.helpers.Print.*;
 
 
@@ -39,7 +35,8 @@ import static world.arossa.helpers.Print.*;
 
 //import world.arossa.controlling_execution.ExerciseN1;
 //import world.arossa.controlling_execution.ExerciseN2;
-import world.arossa.controlling_execution.ExerciseN4;
+//import world.arossa.controlling_execution.ExerciseN4;
+import static world.arossa.controlling_execution.ExerciseN6.*;
 
 public class Main {
 
@@ -178,7 +175,9 @@ public class Main {
 //        ExerciseN2 x = new ExerciseN2(10, 25);
 
 //        world.arossa.controlling_execution.ExerciseN4;
-        ExerciseN4 x = new ExerciseN4(25, 5);
+//        ExerciseN4 x = new ExerciseN4(25, 5);
 
+
+        print(test(5, 10, 4, 4));
     }
 }
