@@ -38,7 +38,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.controlling_execution.ExerciseN4;
 //import static world.arossa.controlling_execution.ExerciseN6.*;
 //import world.arossa.controlling_execution.ExerciseN7;
-import world.arossa.controlling_execution.ExerciseN8;
+//import world.arossa.controlling_execution.ExerciseN8;
+import world.arossa.controlling_execution.ExerciseN9;
 
 public class Main {
 
@@ -187,7 +188,25 @@ public class Main {
 
 
 //        world.arossa.controlling_execution.ExerciseN8;
-        ExerciseN8 x = new ExerciseN8();
+//        ExerciseN8 x = new ExerciseN8();
+
+//        world.arossa.controlling_execution.ExerciseN9;
+        ExerciseN9 x = new ExerciseN9(10);
+/* we get fibonaci
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+* */
+
+
 
     }
+
 }
