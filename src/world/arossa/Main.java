@@ -37,7 +37,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.controlling_execution.ExerciseN2;
 //import world.arossa.controlling_execution.ExerciseN4;
 //import static world.arossa.controlling_execution.ExerciseN6.*;
-import world.arossa.controlling_execution.ExerciseN7;
+//import world.arossa.controlling_execution.ExerciseN7;
+import world.arossa.controlling_execution.ExerciseN8;
 
 public class Main {
 
@@ -182,6 +183,11 @@ public class Main {
 //        print(test(5, 10, 4, 4));
 
 //        world.arossa.controlling_execution.ExerciseN7;
-        ExerciseN7 x = new ExerciseN7(5, 10, 7);
+//        ExerciseN7 x = new ExerciseN7(5, 10, 7);
+
+
+//        world.arossa.controlling_execution.ExerciseN8;
+        ExerciseN8 x = new ExerciseN8();
+
     }
 }
