@@ -43,7 +43,8 @@ import static world.arossa.helpers.Print.*;
 
 
 
-import world.arossa.initialization_cleanup.ExerciseN1;
+//import world.arossa.initialization_cleanup.ExerciseN1;
+import world.arossa.initialization_cleanup.ExerciseN2;
 
 public class Main {
 
@@ -208,11 +209,20 @@ public class Main {
 34
 55
 * */
-        
+
 //        world.arossa.initialization_cleanup.ExerciseN1;
-        ExerciseN1 x = new ExerciseN1();
+//        ExerciseN1 x = new ExerciseN1();
 
-
+//world.arossa.initialization_cleanup.ExerciseN2;
+        ExerciseN2 x = new ExerciseN2();
+/*
+*       answer -> a String field that is initialized at the point of
+definition are visible to all methods. its scope of class.
+*
+* a String field that is initialized with constructor are visible only inside constructor method but we have an option to set it with constructor parameter
+*
+* */
+        
     }
 
 }
