@@ -39,7 +39,11 @@ import static world.arossa.helpers.Print.*;
 //import static world.arossa.controlling_execution.ExerciseN6.*;
 //import world.arossa.controlling_execution.ExerciseN7;
 //import world.arossa.controlling_execution.ExerciseN8;
-import world.arossa.controlling_execution.ExerciseN9;
+//import world.arossa.controlling_execution.ExerciseN9;
+
+
+
+import world.arossa.initialization_cleanup.ExerciseN1;
 
 public class Main {
 
@@ -191,7 +195,7 @@ public class Main {
 //        ExerciseN8 x = new ExerciseN8();
 
 //        world.arossa.controlling_execution.ExerciseN9;
-        ExerciseN9 x = new ExerciseN9(10);
+//        ExerciseN9 x = new ExerciseN9(10);
 /* we get fibonaci
 1
 1
@@ -204,7 +208,9 @@ public class Main {
 34
 55
 * */
-
+        
+//        world.arossa.initialization_cleanup.ExerciseN1;
+        ExerciseN1 x = new ExerciseN1();
 
 
     }
