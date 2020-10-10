@@ -48,6 +48,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN3;
 //import world.arossa.initialization_cleanup.ExerciseN4;
 import world.arossa.initialization_cleanup.ExerciseN5;
+import world.arossa.initialization_cleanup.ExerciseN6;
 
 public class Main {
 
@@ -232,10 +233,10 @@ definition are visible to all methods. its scope of class.
 //        world.arossa.initialization_cleanup.ExerciseN4;
 //        ExerciseN4 x = new ExerciseN4("overloding");
 
-//        world.arossa.initialization_cleanup.ExerciseN4;
-        ExerciseN5 x = new ExerciseN5(5, false, 2.75);
+//        world.arossa.initialization_cleanup.ExerciseN5;
+//        ExerciseN5 x = new ExerciseN5(5, false, 2.75);
 
-
+        ExerciseN6 x = new ExerciseN6(false, 7.29);
 
     }
 
