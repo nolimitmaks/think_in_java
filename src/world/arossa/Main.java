@@ -1,7 +1,5 @@
 package world.arossa;
 
-import world.arossa.initialization_cleanup.ExerciseN4;
-
 import java.util.Random;
 import static world.arossa.helpers.Print.*;
 
@@ -48,6 +46,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN1;
 //import world.arossa.initialization_cleanup.ExerciseN2;
 //import world.arossa.initialization_cleanup.ExerciseN3;
+//import world.arossa.initialization_cleanup.ExerciseN4;
+import world.arossa.initialization_cleanup.ExerciseN5;
 
 public class Main {
 
@@ -230,8 +230,10 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN3 x = new ExerciseN3();
 
 //        world.arossa.initialization_cleanup.ExerciseN4;
-        ExerciseN4 x = new ExerciseN4("overloding");
+//        ExerciseN4 x = new ExerciseN4("overloding");
 
+//        world.arossa.initialization_cleanup.ExerciseN4;
+        ExerciseN5 x = new ExerciseN5(5, false, 2.75);
 
 
 
