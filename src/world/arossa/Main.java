@@ -53,6 +53,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN8;
 //import world.arossa.initialization_cleanup.ExerciseN9;
 import world.arossa.initialization_cleanup.ExerciseN14;
+import world.arossa.initialization_cleanup.ExerciseN15;
 
 
 public class Main {
@@ -256,7 +257,11 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN9 x = new ExerciseN9(10);
 
 //        world.arossa.initialization_cleanup.ExerciseN14;
-        ExerciseN14.showInfo();
+//        ExerciseN14.showInfo();
+
+
+        ExerciseN15 x1 = new ExerciseN15();
+        ExerciseN15 x2 = new ExerciseN15("inside constructor with parameter");
 
 
 
