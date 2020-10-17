@@ -56,6 +56,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN15;
 import world.arossa.initialization_cleanup.ExerciseN16;
 import world.arossa.initialization_cleanup.ExerciseN16A;
+import world.arossa.initialization_cleanup.ExerciseN17;
+import world.arossa.initialization_cleanup.ExerciseN17A;
 
 
 public class Main {
@@ -269,8 +271,11 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN16 n = new ExerciseN16("A", "B", "C", "D", "E");
 
 
-//        world.arossa.initialization_cleanup.ExerciseN17;
-        ExerciseN16A n = new ExerciseN16A(4);
+//        world.arossa.initialization_cleanup.ExerciseN16A;
+//        ExerciseN16A n = new ExerciseN16A(4);
+
+//        world.arossa.initialization_cleanup.ExerciseN17 ~17A;
+        ExerciseN17A s = new ExerciseN17A();
 
     }
 
