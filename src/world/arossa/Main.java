@@ -58,7 +58,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN16A;
 //import world.arossa.initialization_cleanup.ExerciseN17;
 //import world.arossa.initialization_cleanup.ExerciseN17A;
-import world.arossa.initialization_cleanup.ExerciseN18;
+//import world.arossa.initialization_cleanup.ExerciseN18;
+import world.arossa.initialization_cleanup.ExerciseN19;
 
 
 public class Main {
@@ -279,7 +280,12 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN17A s = new ExerciseN17A();
 
 //        world.arossa.initialization_cleanup.ExerciseN18;
-        ExerciseN18 s = new ExerciseN18();
+//        ExerciseN18 s = new ExerciseN18();
+
+
+        ExerciseN19.printArgs("A", "B", "C");
+        String[] arr = {"alfa", "beta", "delta"};
+        ExerciseN19.printArgs(arr);
 
     }
 
