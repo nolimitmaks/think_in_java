@@ -59,10 +59,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN17;
 //import world.arossa.initialization_cleanup.ExerciseN17A;
 //import world.arossa.initialization_cleanup.ExerciseN18;
-import world.arossa.initialization_cleanup.ExerciseN19;
-import world.arossa.initialization_cleanup.ExerciseN21;
-import world.arossa.initialization_cleanup.ExerciseN21A;
-import world.arossa.initialization_cleanup.ExerciseN22;
+import world.arossa.initialization_cleanup.*;
 
 
 public class Main {
@@ -295,12 +292,19 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN21A x = new ExerciseN21A();
 
 //        world.arossa.initialization_cleanup.ExerciseN21 ~ 22;
-        ExerciseN22 enum1 = new ExerciseN22( ExerciseN21.EURO );
-        ExerciseN22 enum2 = new ExerciseN22( ExerciseN21.GBP );
-        ExerciseN22 enum3 = new ExerciseN22( ExerciseN21.EURO );
-        ExerciseN22 enum4 = new ExerciseN22( ExerciseN21.JPN );
-        ExerciseN22 enum5 = new ExerciseN22( ExerciseN21.PLZ );
-        ExerciseN22 enum6 = new ExerciseN22( ExerciseN21.UAH );
+//        ExerciseN22 enum1 = new ExerciseN22( ExerciseN21.EURO );
+//        ExerciseN22 enum2 = new ExerciseN22( ExerciseN21.GBP );
+//        ExerciseN22 enum3 = new ExerciseN22( ExerciseN21.EURO );
+//        ExerciseN22 enum4 = new ExerciseN22( ExerciseN21.JPN );
+//        ExerciseN22 enum5 = new ExerciseN22( ExerciseN21.PLZ );
+//        ExerciseN22 enum6 = new ExerciseN22( ExerciseN21.UAH );
+
+
+
+//        world.arossa.initialization_cleanup.ExerciseN23~23A
+        ExerciseN23A enum1 = new ExerciseN23A( ExerciseN23En.USD );
+        ExerciseN23A enum2 = new ExerciseN23A( ExerciseN23En.EURO );
+        ExerciseN23A enum3 = new ExerciseN23A( ExerciseN23En.GBP );
     }
 
 }
