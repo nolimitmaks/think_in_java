@@ -61,7 +61,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.initialization_cleanup.ExerciseN18;
 
 
-import world.arossa.access_control.ExerciseN1;
+//import world.arossa.access_control.ExerciseN1;
+import world.arossa.access_control.ExerciseN2;
 import world.arossa.initialization_cleanup.*;
 
 
@@ -309,7 +310,14 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN23A enum2 = new ExerciseN23A( ExerciseN23En.EURO );
 //        ExerciseN23A enum3 = new ExerciseN23A( ExerciseN23En.GBP );
 
-        ExerciseN1 x = new ExerciseN1();
+
+        //world.arossa.access_control.ExerciseN1;
+        //world.arossa.initialization_cleanup.*;
+//        ExerciseN1 x = new ExerciseN1();
+
+//world.arossa.access_control.ExerciseN2;
+//world.arossa.initialization_cleanup.*;
+        ExerciseN2 x = new ExerciseN2();
 
     }
 

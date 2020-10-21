@@ -1,16 +1,10 @@
 package world.arossa.access_control;
 
-import world.arossa.initialization_cleanup.*;
-
-import java.util.*;
-
-import static world.arossa.helpers.Print.*;
-
 public class ExerciseN2 {
 
-    ArrayList<String> x = new ArrayList();
+    public ExerciseN2 () {
+        java.util.Vector v1 = new java.util.Vector<>();
 
-    ArrayList x = new ArrayList();
+        world.arossa.initialization_cleanup.Vector v2 = new world.arossa.initialization_cleanup.Vector();
+    }
 }
-
-//    Reference to 'ArrayList' is ambiguous, both 'world.arossa.initialization_cleanup.ArrayList' and 'java.util.ArrayList' match
