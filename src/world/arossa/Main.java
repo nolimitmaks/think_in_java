@@ -337,7 +337,9 @@ definition are visible to all methods. its scope of class.
 
 
 //        ExerciseN4A extends ExerciseN4 with protected methods
-        ExerciseN4A x = new ExerciseN4A();
+//        ExerciseN4A x = new ExerciseN4A();
+
+        ExerciseN25 x = new ExerciseN25();
 
     }
 
