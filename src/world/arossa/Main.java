@@ -64,6 +64,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.access_control.ExerciseN1;
 //import world.arossa.access_control.ExerciseN2;
 import world.arossa.access_control.ExerciseN3;
+import world.arossa.access_control.Sundae;
 import world.arossa.initialization_cleanup.*;
 
 
@@ -326,6 +327,9 @@ definition are visible to all methods. its scope of class.
 // world.arossa.initialization_cleanup.*;
 //        ExerciseN3  production_version = new ExerciseN3(true);
         ExerciseN3 non_production_version = new ExerciseN3(false);
+
+
+        Sundae x = new Sundae();
     }
 
 }
