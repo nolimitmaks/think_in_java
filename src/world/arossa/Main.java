@@ -1,5 +1,7 @@
 package world.arossa;
 
+import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.Random;
 import static world.arossa.helpers.Print.*;
 
@@ -64,6 +66,8 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.access_control.ExerciseN1;
 //import world.arossa.access_control.ExerciseN2;
 import world.arossa.access_control.ExerciseN3;
+import world.arossa.access_control.ExerciseN4;
+import world.arossa.access_control.ExerciseN4A;
 import world.arossa.access_control.Sundae;
 import world.arossa.initialization_cleanup.*;
 
@@ -326,10 +330,15 @@ definition are visible to all methods. its scope of class.
 // world.arossa.access_control.ExerciseN3;
 // world.arossa.initialization_cleanup.*;
 //        ExerciseN3  production_version = new ExerciseN3(true);
-        ExerciseN3 non_production_version = new ExerciseN3(false);
+//        ExerciseN3 non_production_version = new ExerciseN3(false);
 
 
-        Sundae x = new Sundae();
+//        Sundae x = new Sundae();
+
+
+//        ExerciseN4A extends ExerciseN4 with protected methods
+        ExerciseN4A x = new ExerciseN4A();
+
     }
 
 }
