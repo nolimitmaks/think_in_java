@@ -65,12 +65,11 @@ import static world.arossa.helpers.Print.*;
 
 //import world.arossa.access_control.ExerciseN1;
 //import world.arossa.access_control.ExerciseN2;
-import world.arossa.access_control.ExerciseN3;
-import world.arossa.access_control.ExerciseN4;
-import world.arossa.access_control.ExerciseN4A;
-import world.arossa.access_control.ExerciseN5;
-import world.arossa.access_control.Sundae;
-import world.arossa.initialization_cleanup.*;
+import world.arossa.access_control.*;
+//import world.arossa.access_control.ExerciseN3;
+//import world.arossa.access_control.ExerciseN4;
+//import world.arossa.access_control.ExerciseN5;
+//import world.arossa.initialization_cleanup.*;
 
 
 public class Main {
@@ -350,9 +349,9 @@ definition are visible to all methods. its scope of class.
 
 //world.arossa.access_control.ExerciseN5;
 //world.arossa.initialization_cleanup.*;
-        ExerciseN5 x = new ExerciseN5();
-        print(x.public_field);
-        x.showPublicInfo();
+//        ExerciseN5 x = new ExerciseN5();
+//        print(x.public_field);
+//        x.showPublicInfo();
 
 //        x.showPrivetInfo();
 //        java: showPrivetInfo() has private access in world.arossa.access_control.ExerciseN5
@@ -364,14 +363,19 @@ definition are visible to all methods. its scope of class.
 //        print(x.protected_field);
 //        java: protected_field has protected access in world.arossa.access_control.ExerciseN5
 
-        ExerciseN26 e26 = new ExerciseN26();
+//        ExerciseN26 e26 = new ExerciseN26();
 
 
 
 //      ExerciseN5 super class ExerciseN27 sub class. ExerciseN27 outside of its own package it has access only to public methods & fields
-        ExerciseN27 e27 = new ExerciseN27();
-        print(e27.public_field);
-        e27.showPublicInfo();
+//        ExerciseN27 e27 = new ExerciseN27();
+//        print(e27.public_field);
+//        e27.showPublicInfo();
+
+
+        ExerciseN6A n = new ExerciseN6A("\n\n\nprotected field`s value in super class is changed in subclass");
+
+
 
     }
 
