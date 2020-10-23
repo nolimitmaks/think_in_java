@@ -1,6 +1,7 @@
 package world.arossa;
 
 import java.lang.reflect.Method;
+import java.sql.Connection;
 import java.util.Arrays;
 import java.util.Random;
 import static world.arossa.helpers.Print.*;
@@ -376,7 +377,11 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN6A n = new ExerciseN6A("\n\n\nprotected field`s value in super class is changed in subclass");
 
 
-        ExerciseN7 x = new ExerciseN7();
+//        ExerciseN7 x = new ExerciseN7();
+
+
+        ConnectionManager.printInfo();
+
     }
 
 }
