@@ -67,6 +67,7 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.access_control.ExerciseN1;
 //import world.arossa.access_control.ExerciseN2;
 import world.arossa.access_control.*;
+import world.arossa.initialization_cleanup.Foreign;
 //import world.arossa.access_control.ExerciseN3;
 //import world.arossa.access_control.ExerciseN4;
 //import world.arossa.access_control.ExerciseN5;
@@ -380,7 +381,16 @@ definition are visible to all methods. its scope of class.
 //        ExerciseN7 x = new ExerciseN7();
 
 
-        ConnectionManager.printInfo();
+//        ConnectionManager.printInfo();
+
+
+//        Foreign x = new Foreign();
+        Foreign2 x2 = new Foreign2();
+//        Explain why the compiler generates an error.
+//        Would making the Foreign class part of the
+//        access.local package change anything? -> Yes it would make the diference beacouse Forein2 is inside  of the
+//        package access_controls
+
 
     }
 
