@@ -373,10 +373,10 @@ definition are visible to all methods. its scope of class.
 //        e27.showPublicInfo();
 
 
-        ExerciseN6A n = new ExerciseN6A("\n\n\nprotected field`s value in super class is changed in subclass");
+//        ExerciseN6A n = new ExerciseN6A("\n\n\nprotected field`s value in super class is changed in subclass");
 
 
-
+        ExerciseN7 x = new ExerciseN7();
     }
 
 }
