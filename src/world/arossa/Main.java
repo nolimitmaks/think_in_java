@@ -74,6 +74,10 @@ import world.arossa.initialization_cleanup.Foreign;
 //import world.arossa.initialization_cleanup.*;
 
 
+import world.arossa.reusing_classes.*;
+
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -385,13 +389,16 @@ definition are visible to all methods. its scope of class.
 
 
 //        Foreign x = new Foreign();
-        Foreign2 x2 = new Foreign2();
+//        Foreign2 x2 = new Foreign2();
 //        Explain why the compiler generates an error.
 //        Would making the Foreign class part of the
 //        access.local package change anything? -> Yes it would make the diference beacouse Forein2 is inside  of the
 //        package access_controls
 
 
+
+// world.arossa.reusing_classes.*;
+        ExerciseN1A x = new ExerciseN1A();
     }
 
 }
