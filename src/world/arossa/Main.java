@@ -419,8 +419,11 @@ definition are visible to all methods. its scope of class.
 //        x.sterilize().foam();
 //        print("\nfrom Sterilizing ");
 //        print(x);
-        
-        Sterilizing x = new Sterilizing();
+
+//        Sterilizing x = new Sterilizing();
+
+
+        C n = new C();
 
     }
 
