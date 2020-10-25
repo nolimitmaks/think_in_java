@@ -1,10 +1,7 @@
 package world.arossa.reusing_classes;
-import static world.arossa.helpers.Print.*;
 
 public class Sterilizing extends Detergent {
     public Sterilizing () {
-
-        print("Sterilizing constructor");
 
     }
 
