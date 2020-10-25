@@ -400,25 +400,27 @@ definition are visible to all methods. its scope of class.
 // world.arossa.reusing_classes.*;
 //        ExerciseN1A x = new ExerciseN1A();
 
-        Cleanser c = new Cleanser();
-        c.append(" aqua");
-        c.dilute();
-        c.apply();
-        c.scrub();
-        print("\nfrom Cleanser \n" + c);
-
-        Detergent d = new Detergent();
-        d.append(" Detergent ");
-        d.apply();
-        d.scrub();
-        print("\nfrom Detergent \n" + d);
-
-
+//        Cleanser c = new Cleanser();
+//        c.append(" aqua");
+//        c.dilute();
+//        c.apply();
+//        c.scrub();
+//        print("\nfrom Cleanser \n" + c);
+//
+//        Detergent d = new Detergent();
+//        d.append(" Detergent ");
+//        d.apply();
+//        d.scrub();
+//        print("\nfrom Detergent \n" + d);
+//
+//
+//        Sterilizing x = new Sterilizing();
+//        x.scrub();
+//        x.sterilize().foam();
+//        print("\nfrom Sterilizing ");
+//        print(x);
+        
         Sterilizing x = new Sterilizing();
-        x.scrub();
-        x.sterilize().foam();
-        print("\nfrom Sterilizing ");
-        print(x);
 
     }
 
