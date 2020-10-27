@@ -423,7 +423,14 @@ definition are visible to all methods. its scope of class.
 //        Sterilizing x = new Sterilizing();
 
 
-        C n = new C();
+//        C n = new C();
+
+
+        Chess x = new Chess();
+        /*
+        answer is :
+        we cannot create an obj without using a conctructor in Board Games CLass
+        * */
 
     }
 
