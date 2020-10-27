@@ -7,10 +7,10 @@ public class Root {
     Component3 c3;
 
     public Root () {
-        c1 = new Component1();
-        c2 = new Component2();
-        c3 = new Component3();
 
+        c1 = new Component1("apple");
+        c2 = new Component2("google");
+        c3 = new Component3("netflix\n");
 
     }
 }

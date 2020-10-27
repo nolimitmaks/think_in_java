@@ -5,4 +5,8 @@ public class Component1 {
     public Component1 () {
         print("constructor form Component1");
     }
+
+    public Component1 (String s) {
+        print("non-default constructor form Component1 & String s - > " + s );
+    }
 }
