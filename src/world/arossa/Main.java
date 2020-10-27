@@ -433,7 +433,10 @@ definition are visible to all methods. its scope of class.
         * */
 
 
-                C obj = new C(5, "apple");
+//                C obj = new C(5, "apple");
+
+        E obj = new E();
+        E obj_constructor_with_args = new E("apple", 10);
 
     }
 
