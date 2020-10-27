@@ -426,11 +426,14 @@ definition are visible to all methods. its scope of class.
 //        C n = new C();
 
 
-        Chess x = new Chess();
+//        Chess x = new Chess();
         /*
         answer is :
         we cannot create an obj without using a conctructor in Board Games CLass
         * */
+
+
+                C obj = new C(5, "apple");
 
     }
 
