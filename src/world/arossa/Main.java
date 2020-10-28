@@ -439,7 +439,16 @@ definition are visible to all methods. its scope of class.
 //        E obj_constructor_with_args = new E("apple", 10);
 
 
-        Stem st = new Stem();
+//        Stem st = new Stem();
+
+        DetergentA det = new DetergentA();
+        det.append(" Apple");
+        det.apply();
+        det.dilute();
+        det.scrub();
+        det.foam();
+        print(det.toString());
+
     }
 
 }
