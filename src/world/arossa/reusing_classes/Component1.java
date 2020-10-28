@@ -9,4 +9,8 @@ public class Component1 {
     public Component1 (String s) {
         print("non-default constructor form Component1 & String s - > " + s );
     }
+
+    public void dispose() {
+        print("Component1 dispose");
+    }
 }
