@@ -439,8 +439,8 @@ definition are visible to all methods. its scope of class.
 //        E obj_constructor_with_args = new E("apple", 10);
 
 
-        Stem st = new Stem();
-        st.dispose();
+//        Stem st = new Stem();
+//        st.dispose();
 
 //        DetergentA det = new DetergentA();
 //        det.append(" Apple");
@@ -452,6 +452,7 @@ definition are visible to all methods. its scope of class.
 
 
 
+        B1 x = new B1();
 
 
 //        try {
