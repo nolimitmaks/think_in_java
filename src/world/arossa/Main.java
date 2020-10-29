@@ -461,9 +461,10 @@ definition are visible to all methods. its scope of class.
 //
 //        }
 
-        CarShow x = new CarShow();
+//        CarShow x = new CarShow();
 
-
+        ProtectedB x = new ProtectedB("apple");
+        x.show();
     }
 
 }
