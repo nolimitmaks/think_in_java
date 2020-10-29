@@ -452,7 +452,7 @@ definition are visible to all methods. its scope of class.
 
 
 
-        B1 x = new B1();
+//        B1 x = new B1();
 
 
 //        try {
@@ -460,6 +460,9 @@ definition are visible to all methods. its scope of class.
 //        } finally {
 //
 //        }
+
+        CarShow x = new CarShow();
+
 
     }
 
