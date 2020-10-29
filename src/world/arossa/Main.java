@@ -463,8 +463,11 @@ definition are visible to all methods. its scope of class.
 
 //        CarShow x = new CarShow();
 
-        ProtectedB x = new ProtectedB("apple");
-        x.show();
+//        ProtectedB x = new ProtectedB("apple");
+//        x.show();
+
+        Frog x = new Frog();
+        x.upcastToSuper(x);
     }
 
 }
