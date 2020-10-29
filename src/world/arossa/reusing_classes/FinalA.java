@@ -24,7 +24,7 @@ class ShowInfo {
 
 public class FinalA {
 
-    {
+    public FinalA () {
         print(new ShowInfo());
         print(new ShowInfo());
     }
