@@ -7,4 +7,8 @@ public class Amphibian {
         print(amph.toString());
     }
 
+    protected void swim() {
+        print("ocean");
+    }
+
 }
