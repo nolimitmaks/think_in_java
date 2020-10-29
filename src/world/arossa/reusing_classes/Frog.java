@@ -9,6 +9,9 @@ public class Frog extends Amphibian {
         this.swim();
     }
 
-
+    @Override
+    protected void swim() {
+        print("lake");
+    }
 
 }
