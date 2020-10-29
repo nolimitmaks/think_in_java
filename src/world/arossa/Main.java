@@ -466,8 +466,10 @@ definition are visible to all methods. its scope of class.
 //        ProtectedB x = new ProtectedB("apple");
 //        x.show();
 
-        Frog x = new Frog();
-        x.upcastToSuper(x);
+//        Frog x = new Frog();
+//        x.upcastToSuper(x);
+
+        FinalA x = new FinalA();
     }
 
 }
