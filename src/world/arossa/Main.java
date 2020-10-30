@@ -469,7 +469,10 @@ definition are visible to all methods. its scope of class.
 //        Frog x = new Frog();
 //        x.upcastToSuper(x);
 
-        FinalA x = new FinalA();
+//        FinalA x = new FinalA();
+
+        FinalData x = new FinalData();
+
     }
 
 }
