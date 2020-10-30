@@ -477,8 +477,10 @@ definition are visible to all methods. its scope of class.
 //        x.f();
 //        x.g();
 
-        InheritFinalMethod x = new InheritFinalMethod();
-        x.show();
+//        InheritFinalMethod x = new InheritFinalMethod();
+//        x.show();
+
+        AtemptToInheritFromFinalClass x = new AtemptToInheritFromFinalClass();
 
     }
 
