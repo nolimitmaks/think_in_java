@@ -473,9 +473,12 @@ definition are visible to all methods. its scope of class.
 
 //        FinalData x = new FinalData();
 
-        FinalOverridingIllusion x = new FinalOverridingIllusion();
-        x.f();
-        x.g();
+//        FinalOverridingIllusion x = new FinalOverridingIllusion();
+//        x.f();
+//        x.g();
+
+        InheritFinalMethod x = new InheritFinalMethod();
+        x.show();
 
     }
 
