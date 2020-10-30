@@ -471,7 +471,11 @@ definition are visible to all methods. its scope of class.
 
 //        FinalA x = new FinalA();
 
-        FinalData x = new FinalData();
+//        FinalData x = new FinalData();
+
+        FinalOverridingIllusion x = new FinalOverridingIllusion();
+        x.f();
+        x.g();
 
     }
 
