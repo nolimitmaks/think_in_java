@@ -4,10 +4,16 @@ import static world.arossa.helpers.Print.*;
 class Insect {
     private int i = 9;
     protected int j;
+
+    {
+        print(j);
+    }
+
     Insect() {
-        print("i = " + i + ", j = " + j);
+        print("\nInsect constructor");
+        print("i from Insect = " + i + ", j = " + j);
         j = 39;
-        print("Insect constructor");
+        print("Insect constructor\n");
     }
     private static int x1 =
             printInit("static Insect.x1 initialized");
@@ -15,6 +21,11 @@ class Insect {
     static int printInit(String s) {
         print(s);
         return 47;
+    }
+
+    static int printInit(int n) {
+        print(n);
+        return n;
     }
 
     protected static void loading() {
@@ -26,11 +37,17 @@ class Insect {
 
 
 public class Beetle extends Insect {
-    private int k = printInit("Beetle.k initialized");
+    private int n = 1234;
+    {
+        print("\n"+ n);
+    }
+    private int k =
+            printInit("Beetle.k initialized");
     public Beetle() {
-        print("k = " + k);
-        print("j = " + j);
-        print("Beetle constructor");
+        print("\nBeetle constructor");
+        print("k in Beetle = " + k);
+        print("j in Beetle = " + j);
+        print("Beetle constructor\n");
     }
 
     private static int x2 =
@@ -38,7 +55,6 @@ public class Beetle extends Insect {
 
     public static void show() {
         Insect.loading();
-        new Insect();
     }
 
 }

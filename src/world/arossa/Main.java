@@ -485,7 +485,8 @@ definition are visible to all methods. its scope of class.
 
 
 //        Beetle b = new Beetle();
-        Beetle.show();
+        BeetleColorado b = new BeetleColorado();
+        b.show();
 
     }
 
