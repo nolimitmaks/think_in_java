@@ -480,7 +480,12 @@ definition are visible to all methods. its scope of class.
 //        InheritFinalMethod x = new InheritFinalMethod();
 //        x.show();
 
-        AtemptToInheritFromFinalClass x = new AtemptToInheritFromFinalClass();
+//        AtemptToInheritFromFinalClass x = new AtemptToInheritFromFinalClass();
+
+
+
+//        Beetle b = new Beetle();
+        Beetle.show();
 
     }
 
