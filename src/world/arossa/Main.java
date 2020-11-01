@@ -74,6 +74,7 @@ import world.arossa.initialization_cleanup.Foreign;
 //import world.arossa.initialization_cleanup.*;
 
 
+import world.arossa.polymorphism.ShowUpcasting;
 import world.arossa.reusing_classes.*;
 
 
@@ -485,8 +486,10 @@ definition are visible to all methods. its scope of class.
 
 
 //        Beetle b = new Beetle();
-        BeetleColorado b = new BeetleColorado();
-        b.show();
+//        BeetleColorado b = new BeetleColorado();
+//        b.show();
+
+        ShowUpcasting x = new ShowUpcasting();
 
     }
 
