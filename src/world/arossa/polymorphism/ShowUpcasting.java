@@ -21,5 +21,6 @@ public class ShowUpcasting {
     private void ride(Cycle cycle) {
         print(cycle);
         print("\n");
+        print(cycle.wheels());
     }
 }

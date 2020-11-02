@@ -490,9 +490,9 @@ definition are visible to all methods. its scope of class.
 //        BeetleColorado b = new BeetleColorado();
 //        b.show();
 
-//        ShowUpcasting x = new ShowUpcasting();
+        ShowUpcasting x = new ShowUpcasting();
 
-        Shapes x = new Shapes(2);
+//        Shapes x = new Shapes(2);
 
     }
 
