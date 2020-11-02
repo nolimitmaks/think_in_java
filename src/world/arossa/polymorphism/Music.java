@@ -7,7 +7,7 @@ enum Note {
 
 class Instrument {
     void play(Note n) { print(this.getClass().getSimpleName() + "." + n); }
-    void adjust() { print("Adjusting " +this.getClass().getSimpleName()); }
+    void adjust(Note x) { print("Adjusting " +this.getClass().getSimpleName() + " " + x + "\n"); }
 
     public String toString() {
         return "Instrument";
@@ -44,6 +44,12 @@ class Woodwind extends Wind {
     }
 }
 
+class newIstrument extends Woodwind {
+    public String toString() {
+        return "newIstrument";
+    }
+}
+
 public class Music {
     // Upcasting during addition to the array:
     public static Instrument[] orchestra = {
@@ -52,11 +58,13 @@ public class Music {
             new Stringed(),
             new Brass(),
             new Woodwind(),
-            new Brass()
+            new Brass(),
+            new newIstrument()
     };
 
     public static void tune(Instrument i) {
         i.play(Note.B_FLAT);
+        i.adjust(Note.MIDDLE_C);
     }
 
     public static void tuneAll(Instrument[] e) {
@@ -65,8 +73,9 @@ public class Music {
     }
 
     public static void showInfor() {
-        
+
         tuneAll(orchestra);
+
     }
 
 }
