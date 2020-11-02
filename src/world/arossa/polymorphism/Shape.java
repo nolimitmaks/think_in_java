@@ -9,4 +9,8 @@ public class Shape {
     public void erase() {
         print("Shape.erase()");
     }
+
+    protected void message() {
+        print("message from super class Shape");
+    }
 }

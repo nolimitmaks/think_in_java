@@ -10,4 +10,8 @@ public class Triangle extends Shape {
     public void erase() {
         print("Triangle.erase()");
     }
+    @Override
+    protected void message() {
+        print("message from super class Triangle");
+    }
 }

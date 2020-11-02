@@ -24,8 +24,9 @@ public class Shapes {
 
         for (Shape obj : shapes
              ) {
-            obj.draw();
-            obj.erase();
+//            obj.draw();
+//            obj.erase();
+            obj.message();
         }
     }
 }
