@@ -1,4 +1,6 @@
 package world.arossa.polymorphism;
+import java.util.Random;
+
 import static world.arossa.helpers.Print.*;
 
 enum Note {
@@ -51,15 +53,17 @@ class newIstrument extends Woodwind {
 }
 
 public class Music {
+    private static Random r = new Random();
+
     // Upcasting during addition to the array:
     public static Instrument[] orchestra = {
-            new Wind(),
-            new Percussion(),
-            new Stringed(),
-            new Brass(),
-            new Woodwind(),
-            new Brass(),
-            new newIstrument()
+            next(),
+            next(),
+            next(),
+            next(),
+            next(),
+            next(),
+            next()
     };
 
     public static void tune(Instrument i) {
@@ -78,4 +82,19 @@ public class Music {
 
     }
 
+    private static Instrument next() {
+
+        switch (r.nextInt(8)) {
+            default:
+            case 0: return new newIstrument();
+            case 1: return new Wind();
+            case 2: return new Percussion();
+            case 3: return new Stringed();
+            case 4: return new Brass();
+            case 5:
+            case 6:
+            case 7:
+                return new Woodwind();
+        }
+    }
 }
