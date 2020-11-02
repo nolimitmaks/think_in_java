@@ -9,27 +9,19 @@ public class Shapes {
     public Shapes(int arr_length) {
         this.shapes = new Shape[arr_length];
 
-        this.RandomShapeGenerator(this.shapes);
-    }
-
-    private void RandomShapeGenerator(Shape[] shapes) {
-        Random r = new Random();
-
-        for (int i = 0; i < shapes.length ; i++) {
-
-            switch (r.nextInt(3))   {
-                case 0 -> shapes[i] = new Circle();
-                case 1 -> shapes[i] = new Square();
-                case 2 -> shapes[i] = new Triangle();
-            }
-
-        }
-        print(shapes.toString());
-        this.printShapes(shapes);
-
+        this.printShapes(this.shapes);
     }
 
     private void printShapes(Shape[] shapes) {
+
+        for (int i = 0; i < shapes.length ; i++) {
+
+            shapes[i] = RandomShapeGenerator.next();
+
+        }
+
+        print(shapes.toString());
+
         for (Shape obj : shapes
              ) {
             obj.draw();
