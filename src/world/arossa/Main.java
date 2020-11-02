@@ -492,7 +492,7 @@ definition are visible to all methods. its scope of class.
 
 //        ShowUpcasting x = new ShowUpcasting();
 
-        Shapes x = new Shapes(3);
+        Shapes x = new Shapes(7);
 
     }
 
