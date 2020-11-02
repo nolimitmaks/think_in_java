@@ -451,7 +451,9 @@ definition are visible to all methods. its scope of class.
 
 //        Shapes x = new Shapes(2);
 
-        Music.showInfor();
+//        Music.showInfor();
+
+        RodentsInfo r = new RodentsInfo();
     }
 
 }
