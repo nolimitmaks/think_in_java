@@ -6,55 +6,38 @@ enum Note {
 }
 
 class Instrument {
-    void play(Note n) { print("Instrument.play() " + n); }
-    void adjust() { print("Adjusting Instrument"); }
+    void play(Note n) { print(this.getClass().getSimpleName() + "." + n); }
+    void adjust() { print("Adjusting " +this.getClass().getSimpleName()); }
 
     public String toString() {
         return "Instrument";
     }
-
 }
 
 class Wind extends Instrument {
-
-    void play(Note n) { print("Wind.play() " + n); }
-    void adjust() { print("Adjusting Wind"); }
-
     public String toString() {
         return "Wind";
     }
 }
 
 class Percussion extends Instrument {
-    void play(Note n) { print("Percussion.play() " + n); }
-    void adjust() { print("Adjusting Percussion"); }
-
     public String toString() {
         return "Percussion";
     }
 }
 
 class Stringed extends Instrument {
-
-    void play(Note n) { print("Stringed.play() " + n); }
-    void adjust() { print("Adjusting Stringed"); }
-
     public String toString() {
         return "Stringed";
     }
 }
 
 class Brass extends Wind {
-    void play(Note n) { print("Brass.play() " + n); }
-    void adjust() { print("Adjusting Brass"); }
-
     public String toString() {
         return "Brass";
     }
 }
 class Woodwind extends Wind {
-    void play(Note n) { print("Woodwind.play() " + n); }
-    void adjust() { print("Woodwind Brass"); }
 
     public String toString() {
         return "Woodwind";
@@ -82,13 +65,8 @@ public class Music {
     }
 
     public static void showInfor() {
-
-        for (Instrument insturment : orchestra
-             ) {
-            print(insturment);
-        }
-
-//        tuneAll(orchestra);
+        
+        tuneAll(orchestra);
     }
 
 }
