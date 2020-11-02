@@ -19,64 +19,21 @@ import static world.arossa.helpers.Print.*;
 //import world.arossa.everything_is_an_object.ExerciseN9;
 
 
-//import world.arossa.operators.ExerciseN1;
-//import world.arossa.operators.ExerciseN2;
-//import world.arossa.operators.ExerciseN3;
-//import world.arossa.operators.ExerciseN3A;
-//import world.arossa.operators.ExerciseN4;
-//import world.arossa.operators.ExerciseN5;
-//import world.arossa.operators.ExerciseN7;
-//import world.arossa.operators.ExerciseN8;
-//import world.arossa.operators.ExerciseN9;
-//import world.arossa.operators.ExerciseN10;
-//import world.arossa.operators.ExerciseN11;
-//import world.arossa.operators.ExerciseN12;
-//import world.arossa.operators.ExerciseN13;
-//import world.arossa.operators.ExerciseN14;
+//import world.arossa.operators.*;
 
-
-
-//import world.arossa.controlling_execution.ExerciseN1;
-//import world.arossa.controlling_execution.ExerciseN2;
-//import world.arossa.controlling_execution.ExerciseN4;
+//import world.arossa.controlling_execution.*
 //import static world.arossa.controlling_execution.ExerciseN6.*;
-//import world.arossa.controlling_execution.ExerciseN7;
-//import world.arossa.controlling_execution.ExerciseN8;
-//import world.arossa.controlling_execution.ExerciseN9;
 
 
 
-//import world.arossa.initialization_cleanup.ExerciseN1;
-//import world.arossa.initialization_cleanup.ExerciseN2;
-//import world.arossa.initialization_cleanup.ExerciseN3;
-//import world.arossa.initialization_cleanup.ExerciseN4;
-//import world.arossa.initialization_cleanup.ExerciseN5;
-//import world.arossa.initialization_cleanup.ExerciseN6;
-//import world.arossa.initialization_cleanup.ExerciseN7;
-//import world.arossa.initialization_cleanup.ExerciseN8;
-//import world.arossa.initialization_cleanup.ExerciseN9;
-//import world.arossa.initialization_cleanup.ExerciseN14;
-//import world.arossa.initialization_cleanup.ExerciseN15;
-//import world.arossa.initialization_cleanup.ExerciseN16;
-//import world.arossa.initialization_cleanup.ExerciseN16A;
-//import world.arossa.initialization_cleanup.ExerciseN17;
-//import world.arossa.initialization_cleanup.ExerciseN17A;
-//import world.arossa.initialization_cleanup.ExerciseN18;
-
-
-//import world.arossa.access_control.ExerciseN1;
-//import world.arossa.access_control.ExerciseN2;
-import world.arossa.access_control.*;
-import world.arossa.initialization_cleanup.Foreign;
-//import world.arossa.access_control.ExerciseN3;
-//import world.arossa.access_control.ExerciseN4;
-//import world.arossa.access_control.ExerciseN5;
 //import world.arossa.initialization_cleanup.*;
 
+//import world.arossa.access_control.*;
 
-import world.arossa.polymorphism.Shapes;
-import world.arossa.polymorphism.ShowUpcasting;
-import world.arossa.reusing_classes.*;
+//import world.arossa.reusing_classes.*;
+
+
+import world.arossa.polymorphism.*;
 
 
 
@@ -490,10 +447,11 @@ definition are visible to all methods. its scope of class.
 //        BeetleColorado b = new BeetleColorado();
 //        b.show();
 
-        ShowUpcasting x = new ShowUpcasting();
+//        ShowUpcasting x = new ShowUpcasting();
 
 //        Shapes x = new Shapes(2);
 
+        Music.showInfor();
     }
 
 }
