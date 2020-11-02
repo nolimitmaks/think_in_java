@@ -14,6 +14,6 @@ public class Circle extends Shape {
 
     @Override
     protected void message() {
-        print("message from super class Shape");
+        print("message from super class Circle");
     }
 }

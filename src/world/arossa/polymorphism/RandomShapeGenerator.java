@@ -7,7 +7,7 @@ public class RandomShapeGenerator {
 
     public static Shape next() {
 
-        switch (r.nextInt(3))   {
+        switch (r.nextInt(4))   {
 //            default-> ???
 //            case 0 -> new Circle();
 //            case 1 -> new Square();
@@ -17,7 +17,7 @@ public class RandomShapeGenerator {
             case 0: return new Circle();
             case 1: return new Square();
             case 2: return new Triangle();
-
+            case 3: return new PolymorphTest();
 
         }
 
