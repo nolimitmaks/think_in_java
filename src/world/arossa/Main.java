@@ -458,7 +458,8 @@ definition are visible to all methods. its scope of class.
 //        Exercise10A x = new Exercise10A();
 //        x.show();
 
-        Sandwich x = new Sandwich();
+//        Sandwich x = new Sandwich();
 
+        RodentsInfo2 x = new RodentsInfo2();
     }
 }
